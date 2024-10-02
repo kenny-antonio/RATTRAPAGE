@@ -5,10 +5,10 @@ export function removeWords(original , wordsToRemove) {
     for (let i = 0 ; i <wordsToRemove.length; i++){
         for (let index = 0; index <original.length; index++) {
             newString.push(original);
-           /*if (wordsToRemove[i] == newString) {
+           if (wordsToRemove[i] == newString) {
                 newString.splice(wordsToRemove[i]);
                 Result.push(newString);
-           }*/
+           }
            return newString;
         }
 }
