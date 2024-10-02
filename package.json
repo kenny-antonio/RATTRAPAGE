@@ -1,0 +1,15 @@
+{
+  "name": "mocha-j2",
+  "version": "1.0.0",
+  "description": "prise en main de mocha j2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "author": "antonio",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
